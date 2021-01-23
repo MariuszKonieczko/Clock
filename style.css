@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.time-USA,
+.time-local {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.time-USA h4,
+.time-local h4 {
+  font-size: 32px;
+  margin: 40px 0 10px;
+}
+
+.time-USA span,
+.time-local span {
+  font-size: 28px;
+}
